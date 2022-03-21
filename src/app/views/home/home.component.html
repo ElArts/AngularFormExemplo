@@ -1,14 +1,17 @@
-<form #userForm="ngForm" (ngSubmit)="onSubmit()">
+<div class="banner">
+    <div class="container-grid posicao-texto">
+    <div class="texto-banner">
+        <h1>Jogos para você e para toda a família!</h1>
+        <a href="">Confira aqui!</a>     
+    </div>
+</div>
+</div>
 
-<!-- label deve ser utilizado uma linha antes do input para especificar na interface qual o objetivo do input que será utilizado -->
-<label for="email"> Email: </label>
-<input type="email" id="email" name="email" [(ngModel)] = "userModel.email">
-
-<label for="senha"> Senha: </label>
-<input type="password" id="senha" name="senha" [(ngModel)] = "userModel.senha">
-
-<button type="submit">Enviar</button>
-
-</form>
-
-<a routerLink="contato">Contato</a>
+<section class="promocoes">
+    <div class="conteudo-promocoes container">
+        <div class="row">
+    <div class="texto-promocoes col-md-6">
+        <h2>Milhares de promoções para você!</h2>
+        <p>Placas de vídeo, memória ram, SSD, HD, teclado gamer, e muito mais!</p>
+        <a href="">Confira aqui!</a>
+    </div>

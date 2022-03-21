@@ -7,13 +7,23 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
 import { ContatoComponent } from './views/contato/contato.component';
 import { HeaderComponent } from './views/header/header.component';
+import { DesktopComponent } from './views/desktop/desktop.component';
+import { NotebooksComponent } from './views/notebooks/notebooks.component';
+import { ConsolesComponent } from './views/consoles/consoles.component';
+import { JogosComponent } from './views/jogos/jogos.component';
+import { LoginComponent } from './views/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ContatoComponent,
-    HeaderComponent
+    HeaderComponent,
+    DesktopComponent,
+    NotebooksComponent,
+    ConsolesComponent,
+    JogosComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
