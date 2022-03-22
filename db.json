@@ -1,0 +1,10 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "img": "",
+      "titulo": "Hoje está frio",
+      "descricao": "está frio hoje"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ import { NotebooksComponent } from './views/notebooks/notebooks.component';
 import { ConsolesComponent } from './views/consoles/consoles.component';
 import { JogosComponent } from './views/jogos/jogos.component';
 import { LoginComponent } from './views/login/login.component';
+import { HttpClientModule } from '@angular/common/http';;
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LoginComponent } from './views/login/login.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule 
+    FormsModule,
+    HttpClientModule
     // ^Modulo para formulário
   ],
   providers: [],
