@@ -1,10 +1,28 @@
 {
-  "noticias": [
+  "login": [
     {
       "id": 1,
-      "img": "",
-      "titulo": "Hoje está frio",
-      "descricao": "está frio hoje"
+      "nome": "nome genérico 1",
+      "email": "emailgenerico@bol.com.br",
+      "senha": "senhagenerica123"
+    },
+    {
+      "id": 2,
+      "nome": "nome genérico 2",
+      "email": "emailgenerico@bol.com.br",
+      "senha": "senhagenerica456"
+    },
+    {
+      "id": 3,
+      "nome": "nome genérico 3",
+      "email": "emailgenerico@bol.com.br",
+      "senha": "senhagenerica789"
+    },
+    {
+      "id": 4,
+      "nome": "nome genérico 4",
+      "email": "emailgenerico@bol.com.br",
+      "senha": "senhagenerica101112"
     }
   ]
 }

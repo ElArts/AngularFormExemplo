@@ -6,9 +6,9 @@ import { Noticias } from '../models/noticias';
 @Injectable({
   providedIn: 'root'
 })
-export class NoticiasService {
+export class LoginService {
 
-  url = "http://localhost:3000/noticias"
+  url = "http://localhost:3000/login"
 
   constructor(private httpClient: HttpClient) { }
 
