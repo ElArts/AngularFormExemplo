@@ -4,15 +4,13 @@ import { ContatoComponent } from './views/contato/contato.component';
 import { HomeComponent } from './views/home/home.component';
 import { ConsolesComponent } from './views/consoles/consoles.component';
 import { DesktopComponent } from './views/desktop/desktop.component';
-import { JogosComponent } from './views/jogos/jogos.component';
 import { LoginComponent } from './views/login/login.component';
 
 const routes: Routes = [
-  {path: "", component: HomeComponent},
+  {path: "home", component: HomeComponent},
   {path: "contato", component: ContatoComponent},
   {path: "console", component: ConsolesComponent},
   {path: "desktop", component:  DesktopComponent},
-  {path: "jogos", component:  JogosComponent},
   {path: "login", component:  LoginComponent},
 
 ];

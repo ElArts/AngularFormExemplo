@@ -1,12 +1,6 @@
 {
   "login": [
     {
-      "id": 1,
-      "nome": "nome genérico 1",
-      "email": "emailgenerico@bol.com.br",
-      "senha": "senhagenerica123"
-    },
-    {
       "id": 2,
       "nome": "nome genérico 2",
       "email": "emailgenerico@bol.com.br",

@@ -1,0 +1,12 @@
+header{
+    background-color: black;
+    display: flex;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+button{
+    display: none;
+}
