@@ -1,22 +1,33 @@
 {
-  "login": [
+  "users": [
     {
-      "id": 2,
+      "id": 1,
       "nome": "nome genérico 2",
       "email": "emailgenerico@bol.com.br",
       "senha": "senhagenerica456"
     },
     {
-      "id": 3,
+      "id": 2,
       "nome": "nome genérico 3",
       "email": "emailgenerico@bol.com.br",
       "senha": "senhagenerica789"
     },
     {
-      "id": 4,
+      "id": 3,
       "nome": "nome genérico 4",
       "email": "emailgenerico@bol.com.br",
       "senha": "senhagenerica101112"
+    },
+    {
+      "email": "digao@email.com",
+      "password": "$2a$10$KM/Ca/nOZGzmFNHltVMXROb7GzpmwkBnmxx39KGYjETG9YDFQsO5u",
+      "id": 4
+    },
+    {
+      "email": "emailgenerico1232@bol.com.br",
+      "password": "$2a$10$8tZb16ElA2Qhta4x9rGP6u.DnBgvFqu8u892/5rF4LlsAOPPVETPm",
+      "name": "nome genérico 2",
+      "id": 5
     }
   ]
 }
